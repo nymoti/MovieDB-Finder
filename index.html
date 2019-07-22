@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MovieDB Finder</title>
+    
+    <link href="css\bootstrap.min.css" rel="stylesheet">    
+    <link href="css\font-awesome.css" rel="stylesheet">
+</head>
+<body >   
+    
+    <nva class="navbar navbar-dark bg-primary mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">MovieDB Finder</a>
+        </div>
+    </nva>
+
+    <div class="container searchContainer">
+        <div class="search card card-body">
+            <h1>Find your favorite movie</h1>
+            <p class="lead">Enter a movie title to fetch a movie</p>
+            <input type="text" id="searchMovie" class="form-control" placeholder="Movie title...">
+        </div>
+        <br>
+        <div id="movie"></div> 
+    </div>
+
+    <footer class="mt-5 p3 text-center bg-light">
+        MovieDB Finder &copy;
+    </footer>
+
+
+
+    <script src="js/jquery-3.3.1.slim.min.js"  ></script>
+    <script src="js/popper.min.js"  ></script>
+    <script src="js/bootstrap.min.js"  ></script>
+    <script src="moviedb.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
